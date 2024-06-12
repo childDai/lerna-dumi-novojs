@@ -1,12 +1,36 @@
-0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [],
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
-0 silly argv   pkg: 'novo-kit'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath E:\lerna\lerna-dumi-novojs
-3 info versioning independent
-4 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/novo-kit - Not found
-4 error     at E:\lerna\lerna-dumi-novojs\node_modules\npm-registry-fetch\check-response.js:95:15
+33 error Error: Command failed with exit code 1: git commit -F C:\Users\86183\AppData\Local\Temp\59b33440-a52c-4315-a597-adb533c01e9c\lerna-commit.txt
+33 error [33m[STARTED][39m Preparing lint-staged...
+33 error [32m[COMPLETED][39m Preparing lint-staged...
+33 error [33m[STARTED][39m Running tasks for staged files...
+33 error [33m[STARTED][39m package.json — 2 files
+33 error [33m[STARTED][39m *.{md,json} — 2 files
+33 error [33m[STARTED][39m *.{css,less} — 0 files
+33 error [33m[STARTED][39m *.{js,jsx} — 0 files
+33 error [33m[STARTED][39m *.{ts,tsx} — 0 files
+33 error [33m[SKIPPED][39m *.{css,less} — no files
+33 error [33m[SKIPPED][39m *.{js,jsx} — no files
+33 error [33m[SKIPPED][39m *.{ts,tsx} — no files
+33 error [33m[STARTED][39m prettier --write --no-error-on-unmatched-pattern
+33 error [32m[COMPLETED][39m prettier --write --no-error-on-unmatched-pattern
+33 error [32m[COMPLETED][39m *.{md,json} — 2 files
+33 error [32m[COMPLETED][39m package.json — 2 files
+33 error [32m[COMPLETED][39m Running tasks for staged files...
+33 error [33m[STARTED][39m Applying modifications from tasks...
+33 error [32m[COMPLETED][39m Applying modifications from tasks...
+33 error [33m[STARTED][39m Cleaning up temporary files...
+33 error [32m[COMPLETED][39m Cleaning up temporary files...
+33 error ⧗   input: Publish
+33 error
+33 error  - novo-ui@1.0.1
+33 error  - novokit@1.0.1
+33 error ✖   subject may not be empty [subject-empty]
+33 error ✖   type may not be empty [type-empty]
+33 error
+33 error ✖   found 2 problems, 0 warnings
+33 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+33 error
+33 error husky - commit-msg hook exited with code 1 (error)
+33 error     at makeError (E:\lerna\lerna-dumi-novojs\node_modules\execa\lib\error.js:60:11)
+33 error     at handlePromise (E:\lerna\lerna-dumi-novojs\node_modules\execa\index.js:118:26)
+33 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+33 error     at async Promise.all (index 0)
