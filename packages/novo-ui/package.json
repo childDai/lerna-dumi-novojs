@@ -1,11 +1,18 @@
 {
-  "name": "novokit",
+  "name": "novo-ui",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "homepage": "",
+  "homepage": "https://github.com/childDai/lerna-dumi-novojs#readme",
+  "bugs": {
+    "url": "https://github.com/childDai/lerna-dumi-novojs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/childDai/lerna-dumi-novojs.git"
+  },
   "license": "ISC",
   "author": "小时候可呆了 <2225302291@qq.com>",
-  "main": "lib/novokit.js",
+  "main": "lib/novo-ui.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,7 +21,6 @@
     "lib"
   ],
   "scripts": {
-    "build": "echo \"执行打包\"",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "publishConfig": {
