@@ -25,5 +25,6 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
-  }
+  },
+  "gitHead": "a9f0c8d864726a0afbf75b67cc47e50202aef461"
 }
